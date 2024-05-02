@@ -57,7 +57,8 @@
       "!{projectRoot}/jest.config.[jt]s",
       "!{projectRoot}/**/*.spec.[jt]s",
       "!{projectRoot}/karma.conf.js",
-      "!{projectRoot}/src/test-setup.[jt]s"
+      "!{projectRoot}/src/test-setup.[jt]s",
+      "!{projectRoot}/dist/**/*"
     ],
     "sharedGlobals": []
   },
@@ -83,5 +84,13 @@
       "projectNameAndRootFormat": "as-provided"
     }
   },
-  "nxCloudAccessToken": "Y2Y3YzhhNjYtZWI4OC00M2Y0LWIwY2ItMWJhNTBjYzA3ZDA0fHJlYWQtb25seQ=="
+  "nxCloudAccessToken": "ZDdiMzk5MWQtZDdkZS00OWZlLTkwYzItMjZlZjRhNGI5MDNhfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ]
 }

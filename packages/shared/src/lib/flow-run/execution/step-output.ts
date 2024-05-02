@@ -10,7 +10,7 @@ export enum StepOutputStatus {
     SUCCEEDED = 'SUCCEEDED',
 }
 
-type BaseStepOutputParams<T extends ActionType | TriggerType, OUTPUT> = {
+export type BaseStepOutputParams<T extends ActionType | TriggerType, OUTPUT> = {
     type: T
     status: StepOutputStatus
     input: unknown
