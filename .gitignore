@@ -62,3 +62,7 @@ scratch.md
 
 # environment variables
 .env
+# HQ context — generated indices and per-developer overrides
+.hq/
+AGENTS.local.md
+CLAUDE.local.md
